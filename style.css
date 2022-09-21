@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(89.15deg, #5c4854 6.62%, #b06145 95.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color:rgba(0, 0, 0, 0.429);
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho-menu-item {
+    color:rgb(255, 255, 255);
+    font-weight: 4000;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid rgba(240, 248, 255, 0.384);
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-weight: 4800;
+    font-size: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.botoes {
+    display: flex;
+    gap: 40px
+}
+
+.conhecimentos {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color:rgb(255, 255, 255);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 12px 15px 12px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.img {
+    width: 50px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 24px;
+    color: aliceblue;
+    margin-left: 150px;
+    margin-right: 700px;
+    padding-bottom: 92px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid aliceblue;
+    padding-top: 15px;
+}
+
+.rodape {
+    padding: 24px;
+    background-color:rgba(0, 0, 0, 0.429);
+    border-top: 0.4px solid rgba(240, 248, 255, 0.384);
+}
